@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_sunny_snowing_24"
+        android:title="Hoje" />
+    <item
+        android:id="@+id/voce"
+        android:icon="@drawable/baseline_dataset_24"
+        android:title="Voce" />
+    <item
+        android:id="@+id/integrantes"
+        android:icon="@drawable/baseline_groups_24"
+        android:title="Integrantes" />
+</menu>
