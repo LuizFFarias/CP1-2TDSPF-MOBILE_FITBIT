@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CP12TDSPFMobile"
         tools:targetApi="31">
         <activity
+            android:name=".TelaIntegrantes"
+            android:exported="false" />
+        <activity
             android:name=".TelaVoce"
             android:exported="false" />
         <activity
