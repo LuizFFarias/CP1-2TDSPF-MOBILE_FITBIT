@@ -12,25 +12,21 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        // Obtenha o BottomNavigationView
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_nav)
 
-        // Configurando o clique nos itens da BottomNavigationView
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
-                    // Ação para a Home
-                    // Aqui você pode adicionar lógica adicional ou simplesmente ficar na MainActivity
                     true
                 }
                 R.id.voce -> {
-                    // Intent para ir à TelaVoce
                     val intent = Intent(this, TelaVoce::class.java)
                     startActivity(intent)
                     true
                 }
                 R.id.integrantes -> {
-                    // Ação para a tela de Integrantes (outra Activity)
+                    val intent = Intent(this, TelaIntegrantes::class.java)
+                    startActivity(intent)
                     true
                 }
                 else -> false

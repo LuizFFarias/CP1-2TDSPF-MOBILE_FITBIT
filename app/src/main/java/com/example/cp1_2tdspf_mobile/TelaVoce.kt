@@ -19,17 +19,16 @@ class TelaVoce : AppCompatActivity() {
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
-                    // Voltar para MainActivity
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     true
                 }
                 R.id.voce -> {
-                    // Já estamos na TelaVoce, não precisa fazer nada
                     true
                 }
                 R.id.integrantes -> {
-                    // Ação para a tela de Integrantes (outra Activity)
+                    val intent = Intent(this, TelaIntegrantes::class.java)
+                    startActivity(intent)
                     true
                 }
                 else -> false
