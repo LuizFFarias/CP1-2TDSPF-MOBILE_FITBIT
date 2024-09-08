@@ -57,7 +57,7 @@
         android:id="@+id/txt_integrantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="68dp"
         android:text="Integrantes"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,12 +65,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="132dp"
+        android:layout_width="340dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="112dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -94,9 +94,10 @@
                 android:layout_width="116dp"
                 android:layout_height="116dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="188dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/img_luiz" />
@@ -118,10 +119,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="147dp"
-                android:layout_marginTop="108dp"
+                android:layout_marginTop="104dp"
                 android:layout_marginEnd="123dp"
                 android:text="2TDSPF"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -130,8 +132,8 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="292dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="252dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -158,9 +160,10 @@
                 android:layout_width="116dp"
                 android:layout_height="116dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="4dp"
                 android:layout_marginEnd="188dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/img_rafaella" />
@@ -183,7 +186,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="147dp"
-                android:layout_marginTop="108dp"
+                android:layout_marginTop="92dp"
                 android:layout_marginEnd="123dp"
                 android:text="2TDSPF"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -196,8 +199,8 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="452dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="392dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -224,9 +227,10 @@
                 android:layout_width="116dp"
                 android:layout_height="116dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="4dp"
                 android:layout_marginEnd="188dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/img_gustavo" />
@@ -249,11 +253,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="147dp"
-                android:layout_marginTop="108dp"
+                android:layout_marginTop="92dp"
                 android:layout_marginEnd="123dp"
                 android:text="2TDSPF"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
